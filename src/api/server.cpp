@@ -3,10 +3,9 @@
 #include "httplib.h"
 #include <iostream>
 
-// Route registration (defined in routes_dsa.cpp and routes_coa.cpp)
+// Route registration (defined in routes_dsa.cpp)
 namespace f1 { namespace api {
     void register_dsa_routes(httplib::Server& svr, const std::string& data_dir);
-    void register_coa_routes(httplib::Server& svr);
 }}
 
 namespace f1 {
@@ -42,7 +41,6 @@ int run_server(const ServerConfig& cfg) {
     svr.Get("/api/health",  health_handler);
 
     register_dsa_routes(svr, cfg.data_dir);
-    register_coa_routes(svr);
 
     std::cout << "[API] Listening on " << cfg.host << ":" << cfg.port << "\n";
     svr.listen(cfg.host.c_str(), cfg.port);
