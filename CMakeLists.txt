@@ -40,18 +40,14 @@ include_directories(third_party/cpp-httplib)
 include_directories(third_party)
 
 # --------------------------------------------------------------------------
-# SQLite3 amalgamation (compiled as C, linked into everything)
-# Download sqlite-amalgamation from https://sqlite.org/download.html and
-# place sqlite3.h + sqlite3.c into third_party/sqlite/
+# SQLite3 amalgamation
 # --------------------------------------------------------------------------
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/third_party/sqlite/sqlite3.c")
     add_library(sqlite3_lib STATIC third_party/sqlite/sqlite3.c)
     target_include_directories(sqlite3_lib PUBLIC third_party/sqlite)
     set(SQLITE_AVAILABLE TRUE)
 else()
-    message(WARNING "SQLite3 amalgamation not found in third_party/sqlite/. "
-                    "DB features will not compile. "
-                    "Download from https://sqlite.org/download.html")
+    message(WARNING "SQLite3 amalgamation not found in third_party/sqlite/.")
     set(SQLITE_AVAILABLE FALSE)
 endif()
 include_directories(third_party/sqlite)
@@ -76,15 +72,6 @@ set(DB_SOURCES
     src/db/db_reader.cpp
 )
 
-set(DSA_SOURCES
-    src/dsa/dp_solver.cpp
-    src/dsa/greedy_solver.cpp
-    src/dsa/branch_bound_solver.cpp
-    src/dsa/graph_solver.cpp
-    src/dsa/genetic_solver.cpp
-    src/dsa/comparison_harness.cpp
-)
-
 set(COA_SOURCES
     src/coa/monte_carlo_single.cpp
     src/coa/monte_carlo_omp.cpp
@@ -93,7 +80,6 @@ set(COA_SOURCES
 
 set(API_SOURCES
     src/api/server.cpp
-    src/api/routes_dsa.cpp
     src/api/routes_coa.cpp
 )
 
@@ -104,7 +90,6 @@ add_executable(f1_pitwall
     src/main.cpp
     ${MODEL_SOURCES}
     ${DB_SOURCES}
-    ${DSA_SOURCES}
     ${COA_SOURCES}
     ${API_SOURCES}
 )
@@ -168,13 +153,11 @@ if(ENABLE_TESTS)
     enable_testing()
     add_executable(pitwall_tests
         tests/test_main.cpp
-        tests/test_dsa_solvers.cpp
         tests/test_degradation.cpp
         tests/test_monte_carlo.cpp
         tests/test_db_reader.cpp
         ${MODEL_SOURCES}
         ${DB_SOURCES}
-        ${DSA_SOURCES}
         src/coa/monte_carlo_single.cpp
         src/coa/monte_carlo_omp.cpp
         src/coa/profiler.cpp
