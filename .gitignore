@@ -1,0 +1,27 @@
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.perf
+*.data
+perf.data*
+.cache/
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+_deps/
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# SQLite database (regenerate via scripts/pipeline.py)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/.fastf1_cache/

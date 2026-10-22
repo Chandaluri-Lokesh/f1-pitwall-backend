@@ -1,0 +1,9 @@
+{
+  "circuit_id": "spa",
+  "gp_name": "Belgian",
+  "year": 2024,
+  "total_laps": 44,
+  "pit_loss_seconds": 22.0,
+  "base_lap_time": 108.049,
+  "fuel_effect_per_lap": 0.04
+}

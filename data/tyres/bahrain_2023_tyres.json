@@ -1,0 +1,24 @@
+{
+  "circuit_id": "bahrain",
+  "year": 2023,
+  "compounds": [
+    {
+      "compound": "SOFT",
+      "base_lap_time_delta": 0.9553,
+      "deg_linear": 0.074672,
+      "deg_quadratic": -0.00452131,
+      "min_laps": 5,
+      "max_laps": 30,
+      "sample_count": 392
+    },
+    {
+      "compound": "HARD",
+      "base_lap_time_delta": -0.0285,
+      "deg_linear": 0.069093,
+      "deg_quadratic": -0.00254736,
+      "min_laps": 12,
+      "max_laps": 60,
+      "sample_count": 495
+    }
+  ]
+}

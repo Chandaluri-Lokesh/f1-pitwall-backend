@@ -1,0 +1,33 @@
+{
+  "circuit_id": "suzuka",
+  "year": 2024,
+  "compounds": [
+    {
+      "compound": "SOFT",
+      "base_lap_time_delta": 0.9991,
+      "deg_linear": 0.042887,
+      "deg_quadratic": -0.00317298,
+      "min_laps": 5,
+      "max_laps": 30,
+      "sample_count": 53
+    },
+    {
+      "compound": "MEDIUM",
+      "base_lap_time_delta": 0.8402,
+      "deg_linear": 0.021137,
+      "deg_quadratic": -0.00049108,
+      "min_laps": 8,
+      "max_laps": 42,
+      "sample_count": 214
+    },
+    {
+      "compound": "HARD",
+      "base_lap_time_delta": 0.273,
+      "deg_linear": 0.105623,
+      "deg_quadratic": -0.00345375,
+      "min_laps": 12,
+      "max_laps": 60,
+      "sample_count": 494
+    }
+  ]
+}

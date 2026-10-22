@@ -1,0 +1,9 @@
+{
+  "circuit_id": "monza",
+  "gp_name": "Italian",
+  "year": 2023,
+  "total_laps": 51,
+  "pit_loss_seconds": 22.0,
+  "base_lap_time": 86.331,
+  "fuel_effect_per_lap": 0.04
+}

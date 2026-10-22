@@ -1,0 +1,9 @@
+{
+  "circuit_id": "bahrain",
+  "gp_name": "Bahrain",
+  "year": 2023,
+  "total_laps": 57,
+  "pit_loss_seconds": 22.0,
+  "base_lap_time": 97.853,
+  "fuel_effect_per_lap": 0.04
+}

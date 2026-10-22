@@ -1,0 +1,51 @@
+{
+  "circuit_id": "monaco",
+  "year": 2023,
+  "compounds": [
+    {
+      "compound": "SOFT",
+      "base_lap_time_delta": -0.8703,
+      "deg_linear": 0.068807,
+      "deg_quadratic": 0.00063739,
+      "min_laps": 5,
+      "max_laps": 33,
+      "sample_count": 23
+    },
+    {
+      "compound": "MEDIUM",
+      "base_lap_time_delta": 0.4232,
+      "deg_linear": -0.004809,
+      "deg_quadratic": -0.00025906,
+      "min_laps": 8,
+      "max_laps": 42,
+      "sample_count": 324
+    },
+    {
+      "compound": "HARD",
+      "base_lap_time_delta": 0.4238,
+      "deg_linear": 0.003207,
+      "deg_quadratic": -0.00021906,
+      "min_laps": 12,
+      "max_laps": 60,
+      "sample_count": 606
+    },
+    {
+      "compound": "INTERMEDIATE",
+      "base_lap_time_delta": 25.9071,
+      "deg_linear": -0.423885,
+      "deg_quadratic": -0.01708889,
+      "min_laps": 3,
+      "max_laps": 1,
+      "sample_count": 373
+    },
+    {
+      "compound": "WET",
+      "base_lap_time_delta": 22.1401,
+      "deg_linear": -0.076199,
+      "deg_quadratic": -0.01877339,
+      "min_laps": 2,
+      "max_laps": 1,
+      "sample_count": 39
+    }
+  ]
+}

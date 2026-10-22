@@ -1,0 +1,9 @@
+{
+  "circuit_id": "silverstone",
+  "gp_name": "British",
+  "year": 2023,
+  "total_laps": 52,
+  "pit_loss_seconds": 22.0,
+  "base_lap_time": 92.68,
+  "fuel_effect_per_lap": 0.04
+}

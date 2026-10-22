@@ -1,0 +1,62 @@
+[
+  {
+    "team_id": "red_bull",
+    "team_name": "Red Bull Racing",
+    "color": "#3671C6"
+  },
+  {
+    "team_id": "aston_martin",
+    "team_name": "Aston Martin",
+    "color": "#229971"
+  },
+  {
+    "team_id": "ferrari",
+    "team_name": "Ferrari",
+    "color": "#E8002D"
+  },
+  {
+    "team_id": "mercedes",
+    "team_name": "Mercedes",
+    "color": "#27F4D2"
+  },
+  {
+    "team_id": "alfa",
+    "team_name": "Alfa Romeo",
+    "color": "#C92D4B"
+  },
+  {
+    "team_id": "alpine",
+    "team_name": "Alpine",
+    "color": "#FF87BC"
+  },
+  {
+    "team_id": "williams",
+    "team_name": "Williams",
+    "color": "#64C4FF"
+  },
+  {
+    "team_id": "alphatauri",
+    "team_name": "AlphaTauri",
+    "color": "#5E8FAA"
+  },
+  {
+    "team_id": "haas",
+    "team_name": "Haas F1 Team",
+    "color": "#888888"
+  },
+  {
+    "team_id": "mclaren",
+    "team_name": "McLaren",
+    "color": "#FF8000"
+  },
+  {
+    "team_id": "sauber",
+    "team_name": "Kick Sauber",
+    "color": "#52E252"
+  },
+  {
+    "team_id": "rb",
+    "team_name": "RB",
+    "color": "#6692FF"
+  }
+]

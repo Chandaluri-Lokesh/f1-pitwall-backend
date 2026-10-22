@@ -1,0 +1,33 @@
+{
+  "circuit_id": "monaco",
+  "year": 2024,
+  "compounds": [
+    {
+      "compound": "SOFT",
+      "base_lap_time_delta": 0.3481,
+      "deg_linear": -0.108209,
+      "deg_quadratic": 0.00416901,
+      "min_laps": 5,
+      "max_laps": 37,
+      "sample_count": 29
+    },
+    {
+      "compound": "MEDIUM",
+      "base_lap_time_delta": 3.0408,
+      "deg_linear": -0.060678,
+      "deg_quadratic": 0.00011055,
+      "min_laps": 8,
+      "max_laps": 1,
+      "sample_count": 380
+    },
+    {
+      "compound": "HARD",
+      "base_lap_time_delta": 1.5293,
+      "deg_linear": 0.011448,
+      "deg_quadratic": -0.00067972,
+      "min_laps": 12,
+      "max_laps": 60,
+      "sample_count": 749
+    }
+  ]
+}

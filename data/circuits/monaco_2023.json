@@ -1,0 +1,9 @@
+{
+  "circuit_id": "monaco",
+  "gp_name": "Monaco",
+  "year": 2023,
+  "total_laps": 78,
+  "pit_loss_seconds": 22.0,
+  "base_lap_time": 78.225,
+  "fuel_effect_per_lap": 0.04
+}

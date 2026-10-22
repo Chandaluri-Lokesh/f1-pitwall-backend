@@ -1,0 +1,24 @@
+{
+  "circuit_id": "monza",
+  "year": 2024,
+  "compounds": [
+    {
+      "compound": "MEDIUM",
+      "base_lap_time_delta": 2.2748,
+      "deg_linear": -0.131532,
+      "deg_quadratic": 0.00418542,
+      "min_laps": 8,
+      "max_laps": 1,
+      "sample_count": 236
+    },
+    {
+      "compound": "HARD",
+      "base_lap_time_delta": 0.7169,
+      "deg_linear": 0.014865,
+      "deg_quadratic": -0.00011011,
+      "min_laps": 12,
+      "max_laps": 60,
+      "sample_count": 681
+    }
+  ]
+}

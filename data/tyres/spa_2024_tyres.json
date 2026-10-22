@@ -1,0 +1,33 @@
+{
+  "circuit_id": "spa",
+  "year": 2024,
+  "compounds": [
+    {
+      "compound": "SOFT",
+      "base_lap_time_delta": 1.6702,
+      "deg_linear": -0.069516,
+      "deg_quadratic": 0.00072903,
+      "min_laps": 5,
+      "max_laps": 30,
+      "sample_count": 53
+    },
+    {
+      "compound": "MEDIUM",
+      "base_lap_time_delta": 2.0812,
+      "deg_linear": 0.039934,
+      "deg_quadratic": -0.00351506,
+      "min_laps": 8,
+      "max_laps": 1,
+      "sample_count": 300
+    },
+    {
+      "compound": "HARD",
+      "base_lap_time_delta": 0.2703,
+      "deg_linear": 0.017507,
+      "deg_quadratic": -0.00122372,
+      "min_laps": 12,
+      "max_laps": 60,
+      "sample_count": 370
+    }
+  ]
+}

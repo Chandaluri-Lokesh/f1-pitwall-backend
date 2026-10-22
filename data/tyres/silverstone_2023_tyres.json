@@ -1,0 +1,33 @@
+{
+  "circuit_id": "silverstone",
+  "year": 2023,
+  "compounds": [
+    {
+      "compound": "SOFT",
+      "base_lap_time_delta": 1.9074,
+      "deg_linear": -0.263764,
+      "deg_quadratic": 0.00712339,
+      "min_laps": 5,
+      "max_laps": 38,
+      "sample_count": 240
+    },
+    {
+      "compound": "MEDIUM",
+      "base_lap_time_delta": 1.1953,
+      "deg_linear": -0.02802,
+      "deg_quadratic": -0.0001854,
+      "min_laps": 8,
+      "max_laps": 42,
+      "sample_count": 417
+    },
+    {
+      "compound": "HARD",
+      "base_lap_time_delta": 1.3763,
+      "deg_linear": -0.189869,
+      "deg_quadratic": 0.00534983,
+      "min_laps": 12,
+      "max_laps": 39,
+      "sample_count": 116
+    }
+  ]
+}
